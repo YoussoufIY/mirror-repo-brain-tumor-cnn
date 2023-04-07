@@ -1,5 +1,8 @@
 # Brain Tumor Detection Using Machine Learning and MRI Images
 
+![c0499304-400px-wm](https://user-images.githubusercontent.com/115658965/230519773-67694a8a-d08a-4e9d-8dec-68aab0ec7c74.jpg)
+
+
 # Team Members
 Youssouf Ismael, Hinna Ahmad, Komal Taware, Natasha Girdharry 
 

@@ -9,7 +9,7 @@ Brain tumors are one of the most deadly and challenging diseases to diagnose and
 # Objective 
 The objective of this project is to develop a machine learning model that can detect brain tumors accurately using MRI images that can be uploaded onto a website. The model will be trained on a dataset of MRI images that have been labeled with either the presence or absence of a tumor. The model will then be able to classify new MRI images as either having a tumor or not. 
 
-# Datasets link: 
+# Datasets link
 https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
 https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri
 

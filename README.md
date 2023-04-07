@@ -1,4 +1,4 @@
-# Brain-Tumor-Detection-using-Machine-Learning-and-MRI-Images
+# Brain Tumor Detection Using Machine Learning and MRI Images
 
 # Team Members
 Youssouf Ismael, Hinna Ahmad, Komal Taware, Natasha Girdharry 

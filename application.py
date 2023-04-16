@@ -14,7 +14,7 @@ from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 
 # Define a flask app
-app = Flask(__name__)
+application = Flask(__name__)
 
 #Loading original model without class names in the output layer
 model = load_model('VGG16model94accuracy.h5')
@@ -52,12 +52,12 @@ def get_file_path_and_save(request):
 
 
 #Home route
-@app.route('/', methods=['GET'])
+@application.route('/', methods=['GET'])
 def index():
     return render_template('index.html')
 
 # Prediction route
-@app.route('/predict', methods=['GET', 'POST'])
+@application.route('/predict', methods=['GET', 'POST'])
 def predict():
     #IF statement to check if the request is a POST request
     if request.method == 'POST':
@@ -106,5 +106,5 @@ def predict():
 
 if __name__ == '__main__':
     # Serve the app with gevent
-    http_server = WSGIServer(('', 5000), app)
+    http_server = WSGIServer(('', 5000), application)
     http_server.serve_forever()
